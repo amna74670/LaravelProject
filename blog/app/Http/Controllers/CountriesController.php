@@ -25,4 +25,16 @@ class CountriesController extends Controller
       $countryData->save();
       return redirect('/countries');
     }
+
+    public function show($id)
+    {
+      $countryData = Country::findOrFail($id);
+      return view('countries.show', compact('countryData'));
+    }
+
+    public function edit($id)
+    {
+      $countryData = Country::findOrFail($id);
+      return view('countries.edit', compact('countryData'));
+    }
 }

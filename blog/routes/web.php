@@ -38,3 +38,5 @@ Route::get('/amna10', 'Amna10Controller@index');
 Route::get('/countries', 'CountriesController@index');
 Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
+Route::get('/countries/show/{id}', 'CountriesController@show');
+Route::get('/countries/edit/{id}', 'CountriesController@edit');

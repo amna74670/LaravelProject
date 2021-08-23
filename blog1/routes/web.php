@@ -44,10 +44,13 @@ Route::get('/amna19', 'Amna9Controller@index');
 Route::get('/amna20', 'Amna10Controller@index');
 
 Route::get('/countries', 'CountriesController@index');
-
 Route::get('/states', 'StatesController@index');
 Route::get('/states/create', 'StatesController@create');
 Route::post('/states/store', 'StatesController@store');
 
 Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
+Route::get('/states/show/{id}', 'StatesController@show');
+Route::get('/countries/show/{id}', 'CountriesController@show');
+Route::get('/countries/edit/{id}', 'CountriesController@edit');
+Route::get('/states/edit/{id}', 'StatesController@edit');

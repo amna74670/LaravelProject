@@ -29,6 +29,7 @@
             <th scope="col">Status</th>
             <th scope="col">Created at</th>
             <th scope="col">Updated at</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -39,6 +40,11 @@
             <td>{{ $state->status }}</td>
             <td>{{ $state->created_at }}</td>
             <td>{{ $state->updated_at }}</td>
+            <td>
+              <a class="btn btn-info" href="/states/show/{{$state->id}}">Show</a>
+              <a class="btn btn-primary" href="/states/create">Create</a>
+              <a class="btn btn-warning" href="/states/edit/{{$state->id}}">Edit</a>
+            </td>
           </tr>
           @endforeach
         </tbody>

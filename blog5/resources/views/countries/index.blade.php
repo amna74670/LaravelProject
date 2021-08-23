@@ -26,14 +26,20 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col">Name</th>
+            <th scope="col">Actions</th>
           </tr>
         </thead>
         <tbody>
           @foreach($countries as $country)
-          <tr>
-            <td>{{ $country->id }}</td>
-            <td>{{ $country->name }}</td>
-          </tr>
+            <tr>
+              <td>{{ $country->id }}</td>
+              <td>{{ $country->name }}</td>
+              <td>
+                <a class="btn btn-info" href="/countries/show/{{$country->id}}">Show</a>
+                <a class="btn btn-primary" href="/countries/create">Create</a>
+                <a class="btn btn-warning" href="/countries/edit/{{$country->id}}">Edit</a>
+              </td>
+            </tr>
           @endforeach
         </tbody>
       </table>
