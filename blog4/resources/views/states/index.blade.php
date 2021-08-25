@@ -44,6 +44,12 @@
               <a class="btn btn-info" href="/states/show/{{$state->id}}">Show</a>
               <a class="btn btn-primary" href="/states/create">Create</a>
               <a class="btn btn-warning" href="/states/edit/{{$state->id}}">Edit</a>
+              <span class="float-left mr-2">
+                <form class="" action="/states/delete/{{$state->id}}" method="post">
+                  @csrf
+                  <button class="btn btn-danger" type="submit" name="button">Delete</button>
+                </form>
+              </span>
             </td>
           </tr>
           @endforeach

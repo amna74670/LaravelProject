@@ -40,3 +40,13 @@ Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
 Route::get('/countries/show/{id}', 'CountriesController@show');
 Route::get('/countries/edit/{id}', 'CountriesController@edit');
+Route::post('/countries/update/{id}', 'CountriesController@update');
+Route::post('/countries/delete/{id}', 'CountriesController@destroy');
+
+Route::get('/cities', 'CityController@index');
+Route::get('/cities/create', 'CityController@create');
+Route::post('/cities/store', 'CityController@store');
+Route::get('/cities/show/{id}', 'CityController@show');
+Route::get('/cities/edit/{id}', 'CityController@edit');
+Route::post('/cities/update/{id}', 'CityController@update');
+Route::post('/cities/delete/{id}', 'CityController@destroy');

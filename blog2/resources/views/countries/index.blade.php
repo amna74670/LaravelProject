@@ -38,6 +38,12 @@
                 <a class="btn btn-info" href="/countries/show/{{$country->id}}">Show</a>
                 <a class="btn btn-primary" href="/countries/create">Create</a>
                 <a class="btn btn-warning" href="/countries/edit/{{$country->id}}">Edit</a>
+                <span class="float-left mr-1">
+                  <form class="" action="/countries/delete/{{$country->id}}" method="post">
+                    @csrf
+                    <button class="btn btn-danger" type="submit" name="button">Delete</button>
+                  </form>
+                </span>
               </td>
             </tr>
           @endforeach

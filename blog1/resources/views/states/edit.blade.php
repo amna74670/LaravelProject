@@ -28,6 +28,10 @@
           <label for="StateName">State Name</label>
           <input class="form-control" id="StateName" type="text" name="StateName" value="{{$stateData->name}}">
         </div>
+        <div class="form-group">
+          <label for="StateStatus">Status</label>
+          <input class="form-control" id="StateStatus" type="text" name="StateStatus" value="{{$stateData->status}}">
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
