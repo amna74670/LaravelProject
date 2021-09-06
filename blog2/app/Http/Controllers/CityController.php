@@ -32,4 +32,26 @@ class CityController extends Controller
       $cityData = City::findOrFail($id);
       return view('cities.show', compact('cityData'));
     }
+
+    public function edit($id)
+    {
+      $cityData = City::findOrFail($id);
+      return view('cities.edit', compact('cityData'));
+    }
+
+    public function update(Request $request, $id)
+    {
+      $cityData = City::findOrFail($id);
+      $cityData->name = $request->CityName;
+      $cityData->status = $request->CityStatus;
+      $cityData->save();
+      return redirect('/cities');
+    }
+
+    public function destroy($id)
+    {
+      $cityData = City::findOrFail($id);
+      $cityData->delete();
+      return redirect('/cities');
+    }
 }

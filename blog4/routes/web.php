@@ -30,7 +30,6 @@ Route::get('/amna7', 'AmnaController@amna7View');
 Route::get('/amna8', 'AmnaController@amna8View');
 Route::get('/amna9', 'AmnaController@amna9View');
 Route::get('/amna10', 'AmnaController@amna10View');
-
 Route::get('/amna11', 'Amna1Controller@index');
 Route::get('/amna12', 'Amna2Controller@index');
 Route::get('/amna13', 'Amna3Controller@index');
@@ -42,23 +41,35 @@ Route::get('/amna18', 'Amna8Controller@index');
 Route::get('/amna19', 'Amna9Controller@index');
 Route::get('/amna20', 'Amna10Controller@index');
 
-Route::get('/countries', 'CountriesController@index');
 Route::get('/states', 'StatesController@index');
 Route::get('/states/create', 'StatesController@create');
 Route::post('/states/store', 'StatesController@store');
+Route::get('/states/show/{id}', 'StatesController@show');
+Route::get('/states/edit/{id}', 'StatesController@edit');
+Route::post('/states/update/{id}', 'StatesController@update');
+Route::post('/states/delete/{id}', 'StatesController@destroy');
+
 
 Route::get('/countries/create', 'CountriesController@create');
 Route::post('/countries/store', 'CountriesController@store');
-Route::get('/states/show/{id}', 'StatesController@show');
 Route::get('/countries/show/{id}', 'CountriesController@show');
+Route::get('/countries', 'CountriesController@index');
 Route::get('/countries/edit/{id}', 'CountriesController@edit');
-Route::get('/states/edit/{id}', 'StatesController@edit');
 Route::post('/countries/update/{id}', 'CountriesController@update');
 Route::post('/countries/delete/{id}', 'CountriesController@delete');
-Route::post('/states/update/{id}', 'StatesController@update');
-Route::post('/states/delete/{id}', 'StatesController@delete');
 
 Route::get('/cities', 'CityController@index');
 Route::get('/cities/create', 'CityController@create');
 Route::post('/cities/store', 'CityController@store');
 Route::get('/cities/show/{id}', 'CityController@show');
+Route::get('/cities/edit/{id}', 'CityController@edit');
+Route::post('/cities/update/{id}', 'CityController@update');
+Route::post('/cities/delete/{id}', 'CityController@destroy');
+
+Route::get('/cars', 'CarsController@index');
+Route::get('/cars/create', 'CarsController@create');
+Route::post('/cars/store', 'CarsController@store');
+Route::get('/cars/show/{id}', 'CarsController@show');
+Route::get('/cars/edit/{id}', 'CarsController@edit');
+Route::post('/cars/update/{id}', 'CarsController@update');
+Route::post('/cars/destroy/{id}', 'CarsController@destroy');

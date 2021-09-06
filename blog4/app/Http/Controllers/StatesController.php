@@ -55,5 +55,4 @@ class StatesController extends Controller
       return redirect('/states');
     }
 
-
 }

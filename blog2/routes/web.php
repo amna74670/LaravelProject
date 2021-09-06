@@ -66,3 +66,14 @@ Route::get('/cities', 'CityController@index');
 Route::get('/cities/create', 'CityController@create');
 Route::post('/cities/store', 'CityController@store');
 Route::get('/cities/show/{id}', 'CityController@show');
+Route::get('/cities/edit/{id}', 'CityController@edit');
+Route::post('/cities/update/{id}', 'CityController@update');
+Route::post('/cities/delete/{id}', 'CityController@destroy');
+
+Route::get('/cars', 'CarsController@index');
+Route::get('/cars/create', 'CarsController@create');
+Route::post('/cars/store', 'CarsController@store');
+Route::get('/cars/show/{id}', 'CarsController@show');
+Route::get('/cars/edit/{id}', 'CarsController@edit');
+Route::post('/cars/update/{id}', 'CarsController@update');
+Route::post('/cars/destroy/{id}', 'CarsController@destroy');

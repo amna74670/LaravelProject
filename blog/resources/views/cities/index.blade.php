@@ -15,12 +15,21 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+      <div class="">
+        <span class="float-left">
+          <h1>Cities</h1>
+        </span>
+        <span class="float-right mt-2">
+          <a class="btn btn-primary" href="/cities/create"><i class="fas fa-plus"></i> Create</a>
+        </span>
+      </div>
       <table class="table">
         <thead class="thead-dark">
           <tr>
@@ -41,15 +50,16 @@
               <td>{{$city->created_at}}</td>
               <td>{{$city->updated_at}}</td>
               <td>
-                <a class="btn btn-primary" href="/cities/create">Create</a>
-                <a class="btn btn-info" href="/cities/show/{{$city->id}}">Show</a>
-                <a class="btn btn-warning" href="/cities/edit/{{$city->id}}">Edit</a>
-                <span class="float-left mr-1">
-                  <form class="" action="/cities/delete/{{$city->id}}" method="post">
-                    @csrf
-                    <button class="btn btn-danger" type="submit" name="button">Delete</button>
-                  </form>
-                </span>
+                <div class="btn-group" role="group" aria-label="City Button">
+                  <a class="btn btn-info" href="/cities/show/{{$city->id}}"><i class="fas fa-eye"></i></a>
+                  <a class="btn btn-warning" href="/cities/edit/{{$city->id}}"><i class="fas fa-edit"></i></a>
+                  <span class="float-left mr-1">
+                    <form class="" action="/cities/delete/{{$city->id}}" method="post">
+                      @csrf
+                      <button class="btn btn-danger" type="submit" name="button"><i class="fas fa-trash"></i></button>
+                    </form>
+                  </span>
+                </div>
               </td>
             </tr>
           @endforeach

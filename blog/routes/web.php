@@ -50,3 +50,6 @@ Route::get('/cities/show/{id}', 'CityController@show');
 Route::get('/cities/edit/{id}', 'CityController@edit');
 Route::post('/cities/update/{id}', 'CityController@update');
 Route::post('/cities/delete/{id}', 'CityController@destroy');
+
+Route::get('/cars', 'CarsController@index');
+Route::get('/cars/create', 'CarsController@create');
