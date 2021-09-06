@@ -53,3 +53,6 @@ Route::post('/cities/delete/{id}', 'CityController@destroy');
 
 Route::get('/cars', 'CarsController@index');
 Route::get('/cars/create', 'CarsController@create');
+
+//PakSweets Routes
+Route::get('/paksweets', 'PaksweetController@index');
