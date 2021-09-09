@@ -74,3 +74,6 @@ Route::get('/cars/show/{id}', 'CarsController@show');
 Route::get('/cars/edit/{id}', 'CarsController@edit');
 Route::post('/cars/update/{id}', 'CarsController@update');
 Route::post('/cars/destroy/{id}', 'CarsController@destroy');
+
+//PakSweets Routes
+Route::get('/paksweets', 'PaksweetController@index');
