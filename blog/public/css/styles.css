@@ -2,7 +2,11 @@ body {
   padding-top: 66px;
 }
 
-
 .navbar-lteblue  {
   background-color: #23FFEC;
+}
+
+.text-lteblue  {
+  color: #23FFEC;
+  font-family: 'Headland One', serif;
 }

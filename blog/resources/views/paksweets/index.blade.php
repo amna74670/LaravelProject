@@ -15,6 +15,9 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -79,5 +82,43 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+      <div class="container">
+        <div class="my-5">
+          <div class="row">
+            <img src="{{ asset('images/pic4.jpg') }}" alt="promotion">
+          </div>
+        </div>
+        <div class="my-5">
+          <h2 class="text-center text-lteblue display-4">Sweets, Snacks & Food</h2>
+          <div class="row">
+            <div class="card-deck">
+              <div class="card text-center border-0">
+                <img src="{{ asset('images/pic8.jpg') }}" alt="HALWA">
+                <div class="card-body">
+                  <h5 class="text-lteblue">HALWA</h5>
+                </div>
+              </div>
+              <div class="card text-center border-0">
+                <img src="{{ asset('images/pic5.jpg') }}" alt="BENGALI SWEETS">
+                <div class="card-body">
+                  <h5 class="text-lteblue">BENGALI SWEETS</h5>
+                </div>
+              </div><div class="card text-center border-0">
+                <img src="{{ asset('images/pic7.jpg') }}" alt="KALAKAND">
+                <div class="card-body">
+                  <h5 class="text-lteblue">KALAKAND</h5>
+                </div>
+              </div><div class="card text-center border-0">
+                <img src="{{ asset('images/pic6.jpg') }}" alt="SAMOSA">
+                <div class="card-body">
+                  <h5 class="text-lteblue">SAMOSA</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>
