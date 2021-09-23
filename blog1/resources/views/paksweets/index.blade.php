@@ -26,7 +26,7 @@
   <body>
       <nav class="navbar navbar-expand-lg navbar-light navbar-lteblue fixed-top">
         <div class="container">
-          <a class="navbar-brand" href=""><img src="{{ asset('images/logo-dark.svg') }}" width="30px" height="30px" alt=""></a>
+          <a class="navbar-brand" href=""><img src="{{ asset('images/pslogo.png') }}" width="70px" height="70px" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#paksweetsNavBar" aria-controls="paksweetsNavBar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -118,7 +118,71 @@
             </div>
           </div>
         </div>
-      </div>
 
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+                <div id="foodCarousel1" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="{{ asset('images/content-15.jpg') }}" class="d-block w-100" alt="food">
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-danger btn-lg text-white" href="#">ORDER NOW</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="{{ asset('images/content-16.jpg') }}" class="d-block w-100" alt="food">
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-danger btn-lg text-white" href="#">ORDER NOW</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="{{ asset('images/content-17.jpg') }}" class="d-block w-100" alt="food">
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-danger btn-lg text-white" href="#">ORDER NOW</a>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#foodCarousel1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#foodCarousel1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6">
+                <div id="foodCarousel2" class="carousel slide carousel-fade" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="{{ asset('images/content-18.jpg') }}" class="d-block w-100" alt="food">
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-danger btn-lg text-white" href="#">ORDER NOW</a>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="{{ asset('images/content-19.jpg') }}" class="d-block w-100" alt="food">
+                      <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-danger btn-lg text-white" href="#">ORDER NOW</a>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#foodCarousel2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#foodCarousel2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
