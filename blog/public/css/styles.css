@@ -1,5 +1,5 @@
 body {
-  padding-top: 66px;
+  padding-top: 96px;
 }
 
 .navbar-lteblue  {
@@ -9,4 +9,8 @@ body {
 .text-lteblue  {
   color: #23FFEC;
   font-family: 'Headland One', serif;
+}
+
+.carousel-caption  {
+  text-align: left;
 }
