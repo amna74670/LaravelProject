@@ -12,6 +12,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -22,8 +23,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
-  <body>
+  <body class="bg-white">
       <nav class="navbar navbar-expand-lg navbar-light navbar-lteblue fixed-top">
         <div class="container">
           <a class="navbar-brand" href=""><img src="{{ asset('images/pslogo.png') }}" width="70px" height="70px" alt=""></a>
@@ -182,7 +185,119 @@
               </div>
             </div>
           </div>
+
+            <div class="my-5">
+              <div class="col-md-12">
+                <div class="div row">
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/chococookie.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">CHOCO CHOOKIE</h5>
+                        <p class="card-text text-muted mb-0">BAKERY</p>
+                        <p class="card-text">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/bakarkhani.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">BAKARKHANI</h5>
+                        <p class="card-text text-muted mb-0">BAKERY</p>
+                        <p class="card-text">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/donuts.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">DONUTS</h5>
+                        <p class="card-text text-muted mb-0">BAKERY</p>
+                        <p class="card-text">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/orange-juice.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">ORANGE JUICE</h5>
+                        <p class="card-text text-muted mb-0">DRINKS</p>
+                        <p class="card-text">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/custard.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">CUSTARD</h5>
+                        <p class="card-text text-muted mb-0">SWEETS</p>
+                        <p class="card-text">$9.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card border-0" style="width: 18rem;">
+                      <img src="{{ asset('images/tea.jpg') }}" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title text-lteblue">TEA</h5>
+                        <p class="card-text text-muted mb-0">DRINKS</p>
+                        <p class="card-text">$9.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="my-5">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card text-center border-0" style="width: 18rem;">
+                      <span>
+                        <i style="font-size: 125px;" class="fas fa-shipping-fast text-lteblue"></i>
+                      </span>
+                      <div class="card-body">
+                        <h5 class="card-title mt-2">Fast Shipping</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card text-center border-0" style="width: 18rem;">
+                      <span>
+                        <i style="font-size: 125px;" class="fas fa-check-circle text-lteblue"></i>
+                      </span>
+                      <div class="card-body">
+                        <h5 class="card-title mt-2">Top Quality Products</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card text-center border-0" style="width: 18rem;">
+                      <span>
+                        <i style="font-size: 125px;" class="fas fa-lock text-lteblue"></i>
+                      </span>
+                      <div class="card-body">
+                        <h5 class="card-title mt-2">Securce Payment</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card text-center border-0" style="width: 18rem;">
+                      <span>
+                        <i style="font-size: 125px;" class="fas fa-utensils text-lteblue"></i>
+                      </span>
+                      <div class="card-body">
+                        <h5 class="card-title mt-2">Clean Enviorment</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
   </body>
 </html>
