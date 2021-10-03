@@ -299,5 +299,62 @@
               </div>
             </div>
         </div>
+      </div>
+
+      <footer class="bg-ltblue">
+        <div class="container my-5 py-3">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <h6 class="text-white">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white text-decoration-none" href="#">Home</a>
+                </li>
+                <li><a href="" class="text-white text-decoration-none">Whats New</a></li>
+                <li><a href="" class="text-white text-decoration-none">My Account</a></li>
+                <li><a href="" class="text-white text-decoration-none">Support</a></li>
+                <li><a href="" class="text-white text-decoration-none">FAQ's</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <h6 class="text-white">Information</h6>
+              <ul class="list-unstyled">
+                <li><a href="" class="text-white text-decoration-none">About Us</a></li>
+                <li><a href="" class="text-white text-decoration-none">Jobs</a></li>
+                <li><a href="" class="text-white text-decoration-none">Press Info</a></li>
+                <li><a href="" class="text-white text-decoration-none">Contact</a></li>
+                <li><a href="" class="text-white text-decoration-none">Partnership</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <h6 class="text-white">Follow Us</h6>
+              <ul class="list-unstyled">
+                <li><a href="" class="text-white text-decoration-none"><i class="fab fa-fw fa-facebook"></i>Facebook</a></li>
+                <li><a href="" class="text-white text-decoration-none"><i class="fab fa-fw fa-instagram"></i>Instagram</a></li>
+                <li><a href="" class="text-white text-decoration-none"><i class="fab fa-fw fa-twitter"></i>Twitter</a></li>
+                <li><a href="" class="text-white text-decoration-none"><i class="fab fa-fw fa-youtube"></i>YouTube</a></li>
+                <li><a href="" class="text-white text-decoration-none"><i class="fab fa-fw fa-snapchat"></i>Snapchat</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <h6 class="text-white">Our Location</h6>
+              <ul class="list-unstyled">
+                <li><a href="" class="text-white text-decoration-none"><strong>PAKSWEETS</strong></a></li>
+                <li><a href="" class="text-white text-decoration-none">350 5th Avenue</a></li>
+                <li><a href="" class="text-white text-decoration-none">Chicago, Il 10118</a></li>
+                <li><a href="" class="text-white"><i class="fas fa-fw fa-phone"></i>(123) 736-7100</a></li>
+                <li><a href="" class="text-white"><i class="fas fa-fw fa-inbox"></i>info@pak-sweets.com</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="list-inline">
+                <li class="text-white list-inline-item">&copy; 2020 pak-sweets.com</li>
+                <li class="text-white list-inline-item">All rights reserved</li>
+                <li class="text-white list-inline-item">Terms of use and privacy policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
