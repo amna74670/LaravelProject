@@ -302,7 +302,7 @@
       </div>
 
       <footer class="bg-ltblue">
-        <div class="container my-5 py-3">
+        <div class="container py-3">
           <div class="row">
             <div class="col-12 col-sm-6 col-lg-3">
               <h6 class="text-white">Quick Links</h6>

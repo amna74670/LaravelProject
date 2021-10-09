@@ -76,3 +76,6 @@ Route::post('/cars/destroy/{id}', 'CarsController@destroy');
 
 //PakSweets Routes
 Route::get('/paksweets', 'PaksweetController@index');
+
+//Mrpm Website Routes
+Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');
