@@ -83,3 +83,10 @@ Route::get('/paksweets', 'PaksweetController@index');
 
 //Mrpm Website Routes
 Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');
+
+//Mrpm Website Routes
+Route::get('/mrpmautos', 'MrpmautosController@index')->name('mrpmautos.index');
+Route::get('/mrpmautos/services', 'MrpmautosController@services')->name('mrpmautos.services');
+Route::get('/mrpmautos/about', 'MrpmautosController@about')->name('mrpmautos.about');
+Route::get('/mrpmautos/team', 'MrpmautosController@team')->name('mrpmautos.team');
+Route::get('/mrpmautos/contact', 'MrpmautosController@contact')->name('mrpmautos.contact');

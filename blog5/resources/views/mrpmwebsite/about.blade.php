@@ -28,19 +28,19 @@
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{ route('mrpmautos.index') }}">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.services') }}">Services</a>
+                <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.about') }}">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.team') }}">Team</a>
+                <a class="nav-link" href="#">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.contact') }}">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -51,7 +51,7 @@
 
     </div>
     <div class="py-3">
-
+      <h1>About</h1>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
@@ -60,10 +60,10 @@
             <h6>Quick Links</h6>
             <ul class="list-unstyled">
               <li><a href="{{ route('mrpmautos.index') }}">Home</a></li>
-              <li><a href="{{ route('mrpmautos.services') }}">Services</a></li>
-              <li><a href="{{ route('mrpmautos.about') }}">About</a></li>
-              <li><a href="{{ route('mrpmautos.team') }}">Team</a></li>
-              <li><a href="{{ route('mrpmautos.contact') }}">Contact</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Team</a></li>
+              <li><a href="">Contact</a></li>
             </ul>
           </div>
           <div class="col-12 col-sm-6 col-md-3">
