@@ -63,6 +63,41 @@
         </div>
       </div>
     </div>
+
+    <div class="container my-3 my-sm-5">
+      <div class="row bg-light mb-3 mb-sm-5 g-0 p-4">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img class="img-fluid rounded-circle mb-4 mb-lg-0" src="{{ asset('images/Whatwedo.jpg') }}" alt="whatwedo">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>What we do</h2>
+              <p>Repairing or replacing flat tyres, replacing chipped windscreens, replacing key engine parts, carrying out annual services and MOTs are all part of the everyday services which garages offer to customers. MOTs fill up much of the schedule at a car repair garage.</p>
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-sm-6 text-center">
+              <img class="img-fluid rounded-circle mb-4 mb-lg-0" src="{{ asset('images/Whoweare.jpg') }}" alt="Whoweare">
+            </div>
+            <div class="col-12 col-sm-6">
+              <h2>Who we are</h2>
+              <p>Service Technicians. Service technicians carry out routine servicing on cars and vans. ...
+Diagnostic Technicians. ...
+Brake and Transmission Technicians. ...
+Body Repair Technicians. ...
+Vehicle Refinishers. ...
+Vehicle Inspectors. ...
+Auto Mechanic Salary and Growth Trend.</p>
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="py-3">
 
     </div>
