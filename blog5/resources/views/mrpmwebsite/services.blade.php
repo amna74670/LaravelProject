@@ -47,11 +47,19 @@
         </div>
       </nav>
     </header>
-    <div class="py-3">
 
-    </div>
-    <div class="py-3">
-      <h1>Services</h1>
+    <div class="container my-3 my-sm-5">
+      <h1 class="text-center mb-sm-5 display-1">Our Services</h1>
+      <div class="row mb-4 align-items-center flex-md-row-reverse">
+        <div class="col-12 col-md-6 mb-3 mb-md-0">
+          <img src="{{ asset('images/service-1.jpg') }}" alt="service-1">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Service #1</h2>
+          <p>Any content</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">
@@ -106,4 +114,3 @@
     </footer>
   </body>
 </html>
-s

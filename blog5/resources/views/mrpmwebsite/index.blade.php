@@ -86,17 +86,78 @@
             <div class="col-12 col-sm-6">
               <h2>Who we are</h2>
               <p>Service Technicians. Service technicians carry out routine servicing on cars and vans. ...
-Diagnostic Technicians. ...
-Brake and Transmission Technicians. ...
-Body Repair Technicians. ...
-Vehicle Refinishers. ...
-Vehicle Inspectors. ...
-Auto Mechanic Salary and Growth Trend.</p>
+              Diagnostic Technicians. ...
+              Brake and Transmission Technicians. ...
+              Body Repair Technicians. ...
+              Vehicle Refinishers. ...
+              Vehicle Inspectors. ...
+              Auto Mechanic Salary and Growth Trend.</p>
               <a class="btn btn-primary" href="#">Read more</a>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-23-2021">10-23-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-22-2021">10-22-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-21-2021">10-21-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+          <div class="card">
+            <div class="card-header small">
+              Published: <time datetime="10-20-2021">10-20-2021</time>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">News item</h2>
+              <p>Any content</p>
+            </div>
+            <div class="card-footer d-grid">
+              <a class="btn btn-primary" href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
     <div class="py-3">
 
