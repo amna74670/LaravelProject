@@ -56,7 +56,7 @@
         </div>
         <div class="col-12 col-md-6">
           <h2>Service #1</h2>
-          <p>Any content</p>
+          <p>Specialty automobile repair shops are shops specializing in certain parts such as brakes, mufflers and exhaust systems, transmissions, body parts, automobile electrification, automotive air conditioner repairs, automotive glass repairs and installation, and wheel alignment </p>
           <a href="#" class="btn btn-primary">Read more</a>
         </div>
       </div>
