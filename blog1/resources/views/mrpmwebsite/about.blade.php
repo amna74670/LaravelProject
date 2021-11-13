@@ -77,6 +77,38 @@
           </div>
         </div>
       </div>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our clients</h2>
+        <div class="row">
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/toyota-logo.jpg') }}" alt="toyota-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/nissan-logo.png') }}" alt="nissan-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/acura-logo.png') }}" alt="acura-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/lincoln-logo.jpg') }}" alt="lincoln-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/Honda-logo.png') }}" alt="Honda-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/Audi-logo.png') }}" alt="Audi-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/Mercedes-Benz.png') }}" alt="Mercedes-Benz">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/lambo-logo.png') }}" alt="lambo-logo">
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2 mb-3">
+            <img  class="img-fluid" src="{{ asset('images/tesla-logo.jpg') }}" alt="tesla-logo">
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">

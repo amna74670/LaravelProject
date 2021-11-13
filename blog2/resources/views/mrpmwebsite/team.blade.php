@@ -67,7 +67,43 @@
           <p>Chief Executive Officer</p>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
-          <img src="{{ asset('images/avatar-1.png') }}" alt="">
+          <img src="{{ asset('images/avatar-2.png') }}" alt="">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Amna Saleem</h5>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-3.png') }}" alt="">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Amna Saleem</h5>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-4.png') }}" alt="">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Amna Saleem</h5>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-5.png') }}" alt="">
+          <ul class="list-inline mb-1">
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          </ul>
+          <h5>Amna Saleem</h5>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center mb-3">
+          <img src="{{ asset('images/avatar-6.png') }}" alt="">
           <ul class="list-inline mb-1">
             <li class="list-inline-item small"><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
             <li class="list-inline-item small"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
