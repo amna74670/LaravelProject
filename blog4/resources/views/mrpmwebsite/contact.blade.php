@@ -47,11 +47,58 @@
         </div>
       </nav>
     </header>
-    <div class="py-3">
-
-    </div>
-    <div class="py-3">
-      <h1>Contact</h1>
+    <div class="container my-sm-5">
+      <h1 class="text-center mb-sm-4 display-1"></h1>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h2>Address:</h2>
+          <address>
+            <strong>MRPM AUTOS</strong>
+            <br>
+            6257 N Western Ave
+            <br>Chicago, IL 60659
+            <br>
+            <i class="fas fa-fw fa-phone"></i> <a href="tel:+17739778888">+1  (773) 977-8888</a>
+            <br>
+            <i class="fas fa-fw fa-envelope"></i> <a href="mailto:admin@mrpmautos.com">admin@mrpm.com</a>
+          </address>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>Opening Hours</h2>
+          <p>
+            Monday-Friday: <span class="float-end">10 am - 6 pm</span>
+            <br>
+            Saturday: <span class="float-end">10 am - 3 pm</span>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-3">
+          <h2>Send us a message</h2>
+          <form>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label class="form-label" for="name">Name</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    <input id="name" type="text" name="" value="" class="form-control" placeholder="Name" required>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas-fa-envelope"></i></span>
+                    <input id="email" type="text" name="" value="" class="form-control" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <footer class="small bg-light">
       <div class="container py-3">

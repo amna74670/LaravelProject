@@ -17,11 +17,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-      body  {
-        padding-top: 57px;
-      }
-    </style>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom fixed-top">
@@ -39,13 +34,13 @@
                 <a class="nav-link" href="{{ route('mrpmautos.services') }}">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ route('mrpmautos.about') }}">About</a>
+                <a class="nav-link active" href="{{ route('mrpmautos.about') }}">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('mrpmautos.team') }}">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="{{ route('mrpmautos.contact') }}">Contact</a>
+                <a class="nav-link" href="{{ route('mrpmautos.contact') }}">Contact</a>
               </li>
             </ul>
           </div>
@@ -53,56 +48,33 @@
       </nav>
     </header>
 
-    <div class="container my-sm-5">
-      <h1 class="text-center mb-sm-4 display-1"></h1>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <h2>Address:</h2>
-          <address>
-            <strong>MRPM AUTOS</strong>
-            <br>
-            6257 N Western Ave
-            <br>Chicago, IL 60659
-            <br>
-            <i class="fas fa-fw fa-phone"></i> <a href="tel:+17739778888">+1  (773) 977-8888</a>
-            <br>
-            <i class="fas fa-fw fa-envelope"></i> <a href="mailto:admin@mrpmautos.com">admin@mrpm.com</a>
-          </address>
-        </div>
-        <div class="col-12 col-md-6">
-          <h2>Opening Hours</h2>
-          <p>
-            Monday-Friday: <span class="float-end">10 am - 6 pm</span>
-            <br>
-            Saturday: <span class="float-end">10 am - 3 pm</span>
-          </p>
-        </div>
+    <div class="container my-3 my-sm-5 py-5">
+      <h1 class="text-center mb-sm-4 display-1">About</h1>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our story</h2>
+        <p>Any Content</p>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-6 mb-3">
-          <h2>Send us a message</h2>
-          <form>
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <div class="mb-3">
-                  <label class="form-label" for="name">Name</label>
-                  <div class="input-group">
-                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                    <input id="name" type="text" name="" value="" class="form-control" placeholder="Name" required>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6">
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <div class="input-group">
-                    <span class="input-group-text"><i class="fas-fa-envelope"></i></span>
-                    <input id="email" type="text" name="" value="" class="form-control" placeholder="Email" required>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+      <div class="mb-sm-4">
+        <h2 class="text-center mb-sm-4">Our offer</h2>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <figure class="figure">
+              <img  class="figure-img img-fluid" src="{{ asset('images/Garage-1.jpg') }}" alt="Garage-1">
+              <figcaption class="figure-caption small">
+                <p class="mb-0 fst-italic">Photo by: Amna Saleem</p>
+                <p class="mb-0 fst-italic">I captured the image in MRPM garage</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-12 col-lg-6">
+            <figure class="figure">
+              <img  class="figure-img img-fluid" src="{{ asset('images/Garage-2.jpg') }}" alt="Garage-2">
+              <figcaption class="figure-caption small">
+                <p class="mb-0 fst-italic">Photo by: Amna Saleem</p>
+                <p class="mb-0 fst-italic">I captured this image in the MRPM ofice</p>
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </div>
     </div>
@@ -159,4 +131,3 @@
     </footer>
   </body>
 </html>
-0p
