@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-      body{
+      body  {
         padding-top: 57px;
       }
     </style>
@@ -54,7 +54,7 @@
     </header>
 
     <div class="container my-sm-5">
-      <h1 class="text-center mb-sm-4 display-1"></h1>
+      <h1 class="text-center mb-sm-4 display-1">Contacts</h1>
       <div class="row">
         <div class="col-12 col-md-6">
           <h2>Address:</h2>
@@ -70,7 +70,7 @@
           </address>
         </div>
         <div class="col-12 col-md-6">
-          <h2>Opening Hours</h2>
+          <h2>Opening hours</h2>
           <p>
             Monday-Friday: <span class="float-end">10 am - 6 pm</span>
             <br>
@@ -96,13 +96,54 @@
                 <div class="mb-3">
                   <label for="email" class="form-label">Email</label>
                   <div class="input-group">
-                    <span class="input-group-text"><i class="fas-fa-envelope"></i></span>
+                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                     <input id="email" type="text" name="" value="" class="form-control" placeholder="Email" required>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label for="telephone" class="form-label">Telephone</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                    <input type="tel"  class="form-control" id="telephone" placeholder="0123456789" name="" value="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="mb-3">
+                  <label for="department" class="form-label">Department</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-home"></i></span>
+                    <select class="form-select" aria-describedby="department-help-block" id="department" name="" required>
+                      <option value="">- select here -</option>
+                      <option value="buisness">Buisness</option>
+                      <option value="sale">Sale</option>
+                      <option value="support">Support</option>
+                    </select>
+                  </div>
+                  <small class="form-text" id="department-health-block">Please select the recipient of your message</small>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Message:</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                <textarea class="form-control" id="message" name="name" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
           </form>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h2>Where to find us:</h2>
+          <div class="ratio ratio-4x3">
+            <img src="https://maps.locationiq.com/v3/staticmap?key=pk.41891fce7eeb9cd5b3876f056f400dc4&center=41.99617,-87.70560&zoom=14&size=300x300&format=jpg&markers=icon:small-blue-cutout|41.99617,-87.70560&markers=icon:small-blue-cutout|41.99617,-87.70560" alt="">
+          </div>
         </div>
       </div>
     </div>
